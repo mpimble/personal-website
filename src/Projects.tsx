@@ -10,12 +10,21 @@ const SpanningTreeMaze = () => {
     )
 }
 
+const LinuxShell = () => {
+    return (
+        <div>
+            <h2>Linux Shell</h2>
+            <p>Insert Description Here</p>
+        </div>
+    )
+}
+
 const Projects = () => {
     return (
         <div>
             <h1>Michael's Projects</h1>
             <SpanningTreeMaze />
-            <p>Linux Shell</p>
+            <LinuxShell />
         </div>
     )
 }
